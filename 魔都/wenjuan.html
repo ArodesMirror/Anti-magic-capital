@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>仿魔都__点评系统</title>
+    <!-- bootstrap3 -->
+    <link rel="icon" href="./image/cnmodes/ia_100000000068.ico">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- 自体样式 -->
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="container-fluid clearfix">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        <a class="navbar-brand" href="./index.html">
+                                章鱼的地下城
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <!-- <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="请输入内容查询模组">
+                            </div>
+                            <button type="submit" class="btn btn-default">搜索</button>
+                        </form> -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="net.html" title="前往魔都主站">关于地下城</a></li>
+                            <li><a href="org.html" title="前往魔都WiKi">魔都WiKi</a></li>
+                            <li><a href="doku.html" title="前往留言板">特设留言板</a></li>
+                            <li class="actives"><a href="wenjuan.html" title="前往临时求评系统">点评俱乐部</a></li>
+                            <li><a href="orgItem.html" title="前往二十四节气系列">二十四节气系列</a></li>
+                            <li><a href="rules.html" title="前往规制区">规制区</a></li>
+                        </ul>
+                    </div>
+                    <!-- </div> -->
+                    <!-- /.navbar-collapse -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <!-- 中部 -->
+    <div class="coreCenter clearfix">
+        <!-- 表单 -->
+        <div class="wjContent clear" id="survey_page">
+            <div class="content_box content_top">
+                <div class="content" id="begin_content">
+                    <div class="wjtitle mtop project_title">
+                        <h1>
+                            <p style="text-align: left;">求评系统</p>
+                        </h1>
+                    </div>
+                    <div class="wjintro mtop desc_begin">
+                        <p>因为魔都不再对投稿进行质量审核，那么有些想要得到建议的作者就会失去帮助。我觉得如果一个作者有求知欲和上进心，那么我就应该鼓励和帮助他。所以这个求评系统确实是一个重要的补充手段，而且我更希望调动起其他评论者的热情，因此我会尝试把求评系统设置成，求评者可以在诸多评论者中挑选一个他认为合适的人选。那么如何挑选合适的评论人呢，请求评者注意观察点评区的该点评人的点评文章，从中寻找适合你的点评人。今后可能会对点评人擅长的方向做个说明，以帮助求评人更好的寻找目标。</p><span></span><span></span>
+                        <p><span style="font-size:28px"><strong>注意：</strong></span></p><span></span><span></span>
+                        <p><span style="font-size:28px"><strong>1、点评是义务劳动</strong></span></p><span></span><span></span>
+                        <p><span style="font-size:28px"><strong>2、人力资源有限，请不要多吃多占</strong></span></p><span></span><span></span>
+                        <p><span style="font-size:28px"><strong>3、玻璃心作者勿要求评</strong></span></p>
+                    </div>
+                </div>
+
+                <!-- Append question's html code here. -->
+
+                <p>1.魔都投稿作者名</p>
+                <div class="form-group">
+                    <input class="form-control input-lg" type="text" placeholder="作者名">
+                </div>
+
+                <p>2.接收评价建议的邮箱</p>
+                <div class="form-group">
+                    <input class="form-control input-lg" type="text" placeholder="邮箱">
+                </div>
+
+
+                <div class="title">
+                    <p><span style="font-family:黑体"><span style="color:#e74c3c"><strong>第三项和第四项，二选一即可，同时作答时此求评信息将作废！</strong></span></span>
+                    </p>
+                </div>
+
+
+                <p>3.要评价的模组名（仅限魔都已上架的模组）</p>
+                <div class="form-group">
+                    <input class="form-control input-lg" type="text" placeholder="模组名">
+                </div>
+
+
+                <p>4.上传模组（仅限没有在魔都上架的模组）</p>
+                <p>选择文件</p>
+                <p>最多1个，单个文件大小不超过30MB</p>
+
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                点评人说明：若因为各种原因不能完成评价，点评人会转给其他点评人，若无人接手则会咕掉，请做好心理准备。点评人ID后面是偏好或特征，没有附加说明的即不怎么挑类型。
+            </div>
+        </div>
+        <div>
+            <p>5.你选择的点评人（见上面说明，多选无效）</p>
+
+            <div class="radio checkBox">
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    47（人物塑造）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    kuko（日系）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    Nikki（全语音回复，间或有录屏掉落）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    oreoinhell（翻译，绝对不咕）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    猫南北（毒舌萌妹型点评员）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    Pythium（大概率咕）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    埃兰迪斯（翻译）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    八心八叶（暂不接评）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    白米饭（接评中）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    波洛涅斯（暂停接评）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    常乐（任何模组都接，喜欢怪东西，不咕的毒舌
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    湖中羊（勤奋、敬业）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    魂（人形资料库）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    琳尼娜（翻译、大概率咕）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    落落（整体架构）
+                </label>
+                <label>
+                    <input type="radio" name="checkBtn" id="input" value="" checked="checked">
+                    三年之约（视角独特）
+                </label>
+            </div>
+            <!-- 单选end -->
+            <p>6.你喜欢短评还是长评（点评人不一定照办）</p>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="maxminChexk" id="input" value="" checked="checked">
+                   短评
+                </label>
+                <label>
+                    <input type="radio" name="maxminChexk" id="input" value="" checked="checked">
+                   长评
+                </label>
+            </div>
+            <p>7求评人须知：</p>
+            <div>1、点评是义务劳动；</div>
+            <div>2、人力资源有限，请不要多吃多占；</div>
+            <div>3、玻璃心作者勿要求评。<span class="asterisk">*</span></div>
+            </span>
+
+            <div class="radio">
+                <label>
+                    <input type="radio" name="bixu1" id="input" value="" checked="checked">
+                    我已经知晓上述说明，并对可能到来的非正面评价和咕咕咕做好了心理准备
+                </label>
+                <label>
+                    <input type="radio" name="bixu2" id="input" value="" checked="checked">
+                    若不同意又非要求评，请选此项，便于统计员将此求评划为无效求评
+                </label>
+            </div>
+
+        </div>
+
+        <button type="submit" class="btn btn-primary bottomBtn">提交</button>
+
+
+    </div>
+
+    <!-- 底部 -->
+    <div class="bottom">
+        <div class="bottom-list clearfix">
+            <p class="list-group-item"><a href="">魔都wiki</a></p>
+            <p class="list-group-item"><a href="">感谢名单</a></p>
+            <p class="list-group-item"><a href="">手册内页</a></p>
+            <p class="list-group-item"><a href="">联系我们</a></p>
+        </div>
+        <div class="bottom-list clearfix" style="margin-top: 0;">
+            <p class="list-group-item"><a href="">求评系统</a></p>
+            <p class="list-group-item"><a href="">魔都旧址</a></p>
+            <p class="list-group-item"><a href="">纯美苹果园</a></p>
+            <p class="list-group-item"><a href="">TRPG Engine</a></p>
+        </div>
+
+        <div class="bottom-btn">
+            <button type="button" class="btn btn-default btn-sm">
+                <img src="./image/cnmodes/ia_200000009.gif"/>2008-2019 ~ 章鱼的地下城 ~ qking.ink
+            </button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
